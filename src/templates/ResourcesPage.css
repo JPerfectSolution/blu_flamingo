@@ -1,11 +1,11 @@
-.Contact {
+.Resources {
 }
 
-.Contact--Details {
+.Resources--Details {
   margin-top: 3rem;
 }
 
-.Contact--Details--Item {
+.Resources--Details--Item {
   display: flex;
   padding: 2rem 0;
   border-top: 1px solid var(--lightGrey);
@@ -15,24 +15,26 @@
   transition: color 0.2s ease-in-out;
 }
 
-.Contact--Details--Item:hover,
-.Contact--Details--Item:focus {
+.Resources--Details--Item:hover,
+.Resources--Details--Item:focus {
   color: var(--primary);
 }
 
-.Contact--Details--Item svg {
+.Resources--Details--Item svg {
   margin-right: 1.5rem;
   color: var(--primary);
 }
-
+.Resources--Expanding-btn {
+      margin-bottom: 4rem;
+}
 @media (min-width: 750px) {
-  .Contact--Section1--Container {
+  .Resources--Section1--Container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
 
-  .Contact--Section1--Container > * {
+  .Resources--Section1--Container > * {
     width: calc(100% - 2rem);
   }
 }

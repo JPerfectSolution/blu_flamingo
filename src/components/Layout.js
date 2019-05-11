@@ -7,7 +7,9 @@ import Footer from './Footer'
 import GithubCorner from './GithubCorner'
 
 import 'modern-normalize/modern-normalize.css'
-import './globalStyles.css'
+import './globalStyles.scss'
+// import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap/dist/css/bootstrap-theme.css'
 
 export default ({ children, meta, title }) => {
   return (
@@ -57,6 +59,12 @@ export default ({ children, meta, title }) => {
               titleTemplate={`%s | ${siteTitle}`}
             >
               {title}
+              <link
+                rel="stylesheet"
+                href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+                integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+                crossorigin="anonymous"
+              />
               <link href="https://ucarecdn.com" rel="preconnect" crossorigin />
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
               {/* Add font link tags here */}
@@ -72,8 +80,6 @@ export default ({ children, meta, title }) => {
               {...meta}
               {...data.settingsYaml}
             />
-
-            <GithubCorner url="https://github.com/thriveweb/yellowcake" />
 
             <Nav subNav={subNav} />
 

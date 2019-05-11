@@ -1,0 +1,41 @@
+.BlogCard {
+  text-decoration: none;
+  background: white;
+  color: inherit;
+  border: 1px solid var(--lightGrey);
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease-in-out;
+  overflow: hidden;
+}
+
+.BlogCard:hover,
+.BlogCard:focus {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+}
+
+.BlogCard--Image {
+  display: inline-block;
+  vertical-align: top;
+  /* margin: 0 0 2rem 0; */
+  width: 500px;
+  height: 300px;
+}
+
+.BlogCard--Title {
+  margin: 0;
+}
+
+.BlogCard--Content {
+  width: calc(100% - 500px);
+  display: inline-block;
+  padding: 2.5rem;
+}
+
+.BlogCard--Category {
+  font-size: 1.2rem;
+  min-height: 1.2em;
+  line-height: 1;
+  margin: 0.5em 0;
+}

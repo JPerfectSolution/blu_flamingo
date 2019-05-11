@@ -1,0 +1,6 @@
+.btn-brief-us {
+  background-color: var(--primary);
+  color: white;
+  height: 31px;
+  border-radius: 4px;
+}

@@ -16,7 +16,7 @@ export default ({
   >
     <label className='Form--Label'>
       <input
-        className='Form--Input'
+          className='Form--Input Form-control'
         type='text'
         placeholder='Name'
         name='name'

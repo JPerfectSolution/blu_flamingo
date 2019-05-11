@@ -3,8 +3,9 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  max-width: 500px;
+  /* max-width: 500px; */
   margin: 2.5rem 0;
+  align-items: center;
 }
 
 .Form > * + * {
@@ -17,6 +18,7 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .Form--Group .Form--Label {
@@ -31,6 +33,7 @@
   position: relative;
   z-index: 1;
   background: var(--white);
+  margin-bottom: 20px;
 }
 
 .Form--Label > span {
@@ -41,14 +44,17 @@
   opacity: 0.8;
   z-index: -1;
 }
-
+.Form-control {
+  box-shadow: 0 2px 0 0 var(--primary);
+  border: none;
+}
 .Form--Input {
   font-family: inherit;
   flex-grow: 1;
   box-sizing: border-box;
   display: block;
   margin: 0;
-  border: 1px solid #bababa;
+  /* border: 1px solid #bababa; */
   padding: 1.5rem 2rem;
   border-radius: var(--borderRadius);
   line-height: 1.25em;
@@ -223,4 +229,12 @@
 .Form--CheckboxInput:checked + span::after {
   opacity: 1;
   transform: scale(1);
+}
+
+.Form--Brief {
+  text-align: center;
+    width: 100%;
+    height: 200px;
+    border: dashed 2px #00b1df;
+    padding-top: 80px;
 }

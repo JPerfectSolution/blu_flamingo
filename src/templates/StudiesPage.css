@@ -1,0 +1,32 @@
+.Studies {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.Studies--Map {
+    background-image: linear-gradient(82deg, #00d9f1, #00b1df);
+    padding: 1rem 5rem;
+    line-height: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.Studies--Map-Image {
+  display: inline-block;
+  vertical-align: top;
+  /* margin: 0 0 2rem 0; */
+  width: 285px;
+  height: 350px;
+}
+
+.Studies--Map-Content {
+        width: calc(100% - 285px);
+    display: inline-block;
+    padding: 5rem 3rem 5rem 0rem;
+    color: white;
+    font-size: 1.4rem;
+}
+.Studies--Map-Content-Head {
+  color: white;
+  font-size: 3.7rem;
+  line-height: 5rem;
+  margin-bottom: 1rem;
+}

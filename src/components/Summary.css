@@ -1,0 +1,35 @@
+.Summary {
+  height: 597px;
+  background-color: #fafafa;
+}
+.Summary-line {
+  background-color: var(--primary);
+  width: 100%;
+  height: 3px;
+  margin-top: 200px;
+}
+.Summary-content {
+  margin-top: -170px;
+}
+.Summary-Img {
+  display: inline-block;
+  vertical-align: top;
+  /* margin: 0 0 2rem 0; */
+  width: 143px;
+  height: 143px;
+}
+.Summary-pan {
+  margin-top: 80px; 
+}
+.Summary-item {
+  width: 33.33%;
+  text-align: center;
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 5rem;
+}
+.Summary-Read-more {
+  margin-top: 50px;
+  margin-bottom: 50px
+}

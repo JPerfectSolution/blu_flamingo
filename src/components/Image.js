@@ -74,6 +74,8 @@ class Image extends React.Component {
       secSet = this.imageSizes.map(size => {
         return `${src}-/progressive/yes/-/format/auto/-/preview/${size}x${size}/-/quality/lightest/${size}.jpg ${size}w`
       })
+    } else {
+      src = src.replace('../../static',"")
     }
 
     fullSrc = `${src}${
@@ -96,7 +98,7 @@ class Image extends React.Component {
         backgroundSize
       }
     }
-
+    
     return (
       <Fragment>
         {isUploadcare && lazy && (
@@ -139,7 +141,7 @@ class Image extends React.Component {
               <div
                 className={`BackgroundImage absolute ${className}`}
                 style={style}
-              />
+              ></div>
             )}
             {!background && (
               <img
